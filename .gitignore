@@ -13,6 +13,7 @@ pnpm-debug.log*
 # Env vars
 .env
 .env.*.local
+config.env
 
 # Editor stuff
 .vscode/
@@ -20,5 +21,8 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Git files
-*.lock
+# Tailwind cache (optional)
+.tailwindcache
+
+# Remove this line if you want to keep package-lock.json committed:
+# *.lock
